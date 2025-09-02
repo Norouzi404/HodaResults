@@ -420,11 +420,6 @@
                 return;
             }
 
-            if (nationalCode.length !== 10 || !/^\d+$/.test(nationalCode)) {
-                showError('کد ملی باید ۱۰ رقم باشد و فقط شامل اعداد باشد');
-                return;
-            }
-
             // نمایش loading
             loading.style.display = 'block';
             resultSection.style.display = 'none';
